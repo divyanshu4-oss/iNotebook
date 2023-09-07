@@ -6,7 +6,7 @@ const mongoURI = "mongodb+srv://divyanshukumar1980:divyanshu940@cluster0.fjlqfpk
 
 
 const connectToMongo=()=>{
-    mongoose.connect(mongoURI);git 
+    mongoose.connect(mongoURI);
     console.log("connected to mongo");
 }
 module.exports = connectToMongo;
